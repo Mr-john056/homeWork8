@@ -9,9 +9,16 @@ public class Main {
     }
     private static void task1() {
         System.out.println("Задача 1");
-        int [] massive1 = {1,2,3};
+        int [] massive1 = new int[3];
+        massive1 [0] = 1;
+        massive1 [1] = 2;
+        massive1 [2] = 3;
         System.out.println(Arrays.toString(massive1));
-        System.out.println();
+            double [] massive2 = {1.57, 7.654, 9.986};
+            System.out.println(Arrays.toString(massive2));
+                int [] massive3 = {1, 5, 3, 7, 9, 863, 576, 174};
+                System.out.println(Arrays.toString(massive3));
+    System.out.println();
     }
     private static void task2() {
         System.out.println("Задача 2");
