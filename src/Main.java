@@ -16,7 +16,7 @@ public class Main {
         System.out.println(Arrays.toString(massive1));
             double [] massive2 = {1.57, 7.654, 9.986};
             System.out.println(Arrays.toString(massive2));
-                int [] massive3 = {1, 5, 3, 7, 9, 863, 576, 174};
+                int [] massive3 = {1, 5, 3, 7, 9, 863, 576, 173};
                 System.out.println(Arrays.toString(massive3));
     System.out.println();
     }
