@@ -22,6 +22,24 @@ public class Main {
     }
     private static void task2() {
         System.out.println("Задача 2");
+        int [] masive1 = new int [3];
+        masive1 [0] = 1;
+        masive1 [1] = 2;
+        masive1 [2] = 3;
+        for (int index = 0; index < masive1.length; index++){
+            if (index == masive1.length - 1){
+                System.out.println(masive1[index]);
+                break;
+            }
+            System.out.print(masive1[index] + ",");
+        }
+        double [] masive2 = {1.57, 7.654, 9.986};
+        System.out.println(Arrays.toString(masive2));
+
+        boolean [] masive3 = {true, false, true};
+        for (int index = 0; (index < masive3.length - 1); index++){
+            System.out.println(masive3[index]);
+        }
     }
     private static void task3() {
         System.out.println("Задача 3");
