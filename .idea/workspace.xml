@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffbb08e0-b7e7-4db6-b037-96d43d4a50aa" name="Changes" comment="Сделал задачу 1">
+    <list default="true" id="ffbb08e0-b7e7-4db6-b037-96d43d4a50aa" name="Changes" comment="Сделал задачу 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -14,11 +14,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2TUBc6zF0rc4ZnOuiaCm4u5h7rB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -30,8 +35,9 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "C:/Users/Evgen/IdeaProjects/homeWork8/src/Main.java"
+    "git-widget-placeholder": "Student",
+    "onboarding.tips.debug.path": "C:/Users/Evgen/IdeaProjects/homeWork8/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager">
@@ -87,6 +93,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Пересоздаю репозиторий для home work 8" />
     <MESSAGE value="Сделал задачу 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал задачу 1" />
+    <MESSAGE value="Сделал задачу 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал задачу 2" />
   </component>
 </project>
