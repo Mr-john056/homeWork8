@@ -39,9 +39,9 @@ public class Main {
         System.out.println(Arrays.toString(masive2));
 
         boolean[] masive3 = {true, false, true};
-        for (int index = 0; (index < masive3.length - 1); index++) {
-            System.out.print(masive3[index] + ",");
-            System.out.println(masive3[masive3.length - 1]);
+        for (int i = 0; (i < masive3.length); i++) {
+            System.out.print(masive3[i] + ",");
+           // System.out.println(masive3[masive3.length - 1]);
         }
         System.out.println();
     }
@@ -55,23 +55,30 @@ public class Main {
         for (int index = masive1.length - 1; index >= 0; index--) {
             if (index == masive1.length + 1) {
                 System.out.println(masive1[index]);
-                break;
             }
             System.out.print(masive1[index] + ",");
         }
         System.out.println();
 
         double[] masive2 = {1.57, 7.654, 9.986};
+        for (int i = masive2.length - 1; i >= 0; i--) {
+                System.out.print(Arrays.toString(new double[]{masive2[i]}));
+            }
+        System.out.println();
 
-        for (int i = masive2.length; i >= 0; i--) {
-            if (i == masive2.length + 1){
-            System.out.println(Arrays.toString(masive2)+ ",");
-        }
-            System.out.println(Arrays.toString(masive2) + ",");
-        }
         boolean[] masive3 = {true, false, true};
+        for (int i = masive3.length - 1; i>= 0; i--) {
+                System.out.print(masive3[i] + ",");
+        }
+        System.out.println();
         }
         private static void task4 () {
             System.out.println("Задача 4");
+            int[] massiv = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+            for (int i = 1; i <= massiv.length - 1; i++) {
+                if (i == massiv.length - 1) {
+                    System.out.println(Arrays.toString(massiv));
+                }
+            }
         }
     }
