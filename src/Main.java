@@ -70,16 +70,17 @@ public class Main {
         for (int i = masive3.length - 1; i>= 0; i--) {
                 System.out.print(masive3[i] + ",");
             }
-
         System.out.println();
         }
         private static void task4 () {
             System.out.println("Задача 4");
-            int[] massiv = new int [10] ;
-            for (int i = 0; i < massiv.length; i++) {
-                massiv[i] = i + 1;
-                if (i != massiv.length / 2) {
-                    System.out.println(Arrays.toString(massiv));
+            int[] massive = {1,2,3,4,5,6,7,8,9,10} ;
+            for (int i = 0; i< massive.length; i++) {
+                if (i < massive.length - 1) {
+                if (massive[i] % 2 == 1) {
+                   massive[i] = massive[i] + 1;
+                   System.out.println(Arrays.toString(massive));
+                   }
                 }
             }
         }
