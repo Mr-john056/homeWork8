@@ -69,14 +69,16 @@ public class Main {
         boolean[] masive3 = {true, false, true};
         for (int i = masive3.length - 1; i>= 0; i--) {
                 System.out.print(masive3[i] + ",");
-        }
+            }
+
         System.out.println();
         }
         private static void task4 () {
             System.out.println("Задача 4");
-            int[] massiv = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-            for (int i = 1; i <= massiv.length - 1; i++) {
-                if (i == massiv.length - 1) {
+            int[] massiv = new int [10] ;
+            for (int i = 0; i < massiv.length; i++) {
+                massiv[i] = i + 1;
+                if (i != massiv.length / 2) {
                     System.out.println(Arrays.toString(massiv));
                 }
             }

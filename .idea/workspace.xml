@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffbb08e0-b7e7-4db6-b037-96d43d4a50aa" name="Changes" comment="Сделал задачу 2">
+    <list default="true" id="ffbb08e0-b7e7-4db6-b037-96d43d4a50aa" name="Changes" comment="Сделал задачу 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -95,13 +95,22 @@
       <option name="project" value="LOCAL" />
       <updated>1691233885875</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Сделал задачу 3">
+      <option name="closed" value="true" />
+      <created>1691245380862</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691245380862</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Пересоздаю репозиторий для home work 8" />
     <MESSAGE value="Сделал задачу 1" />
     <MESSAGE value="Сделал задачу 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал задачу 2" />
+    <MESSAGE value="Сделал задачу 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал задачу 3" />
   </component>
 </project>
