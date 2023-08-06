@@ -41,7 +41,6 @@ public class Main {
         boolean[] masive3 = {true, false, true};
         for (int i = 0; (i < masive3.length); i++) {
             System.out.print(masive3[i] + ",");
-           // System.out.println(masive3[masive3.length - 1]);
         }
         System.out.println();
     }
@@ -75,13 +74,11 @@ public class Main {
         private static void task4 () {
             System.out.println("Задача 4");
             int[] massive = {1,2,3,4,5,6,7,8,9,10} ;
-            for (int i = 0; i< massive.length; i++) {
-                if (i < massive.length - 1) {
-                if (massive[i] % 2 == 1) {
-                   massive[i] = massive[i] + 1;
-                   System.out.println(Arrays.toString(massive));
-                   }
+            for (int i = 0; i < massive.length; i++) {
+               if (massive[i] % 2 == 1) {
+                        massive[i] = massive[i] + 1;
                 }
             }
+            System.out.println(Arrays.toString(massive));
         }
     }
