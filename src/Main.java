@@ -52,10 +52,9 @@ public class Main {
         masive1[1] = 2;
         masive1[2] = 3;
         for (int index = masive1.length - 1; index >= 0; index--) {
-            if (index == masive1.length + 1) {
-                System.out.println(masive1[index]);
+            if (index < masive1.length + 1) {
+                System.out.print(masive1[index] + ",");
             }
-            System.out.print(masive1[index] + ",");
         }
         System.out.println();
 
